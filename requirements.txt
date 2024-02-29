@@ -1,0 +1,7 @@
+fastapi
+SQLAlchemy
+PyMySQL
+colorama
+python-jose
+uvicorn
+python-multipart
