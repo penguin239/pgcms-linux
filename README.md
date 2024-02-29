@@ -77,8 +77,7 @@ DATABASE blog
 选中```blog```数据库并执行导入```blog.sql```文件。
 
 ```sql
-USE
-blog
+USE blog
 
 source /export/server/pgcms-linux-v0.1/blog.sql
 ```
