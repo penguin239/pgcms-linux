@@ -10,9 +10,10 @@ Base = declarative_base()
 mysql_username = config.mysql_username
 mysql_password = config.mysql_password
 mysql_database = config.mysql_database
+mysql_port = config.mysql_port
 
 engine = create_engine(
-    f'mysql+pymysql://{mysql_username}:{mysql_password}@localhost:3306/{mysql_database}?charset=utf8mb4',
+    f'mysql+pymysql://{mysql_username}:{mysql_password}@localhost:{mysql_port}/{mysql_database}?charset=utf8mb4',
     max_overflow=0,
     pool_size=5,
     echo=False
