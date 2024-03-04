@@ -15,3 +15,4 @@ icon_front_path = 'static/images/'
 mysql_username = '[your_username]'
 mysql_password = '[your_password]'
 mysql_database = 'blog'
+mysql_port=3306
