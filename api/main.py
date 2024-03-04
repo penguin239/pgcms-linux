@@ -47,6 +47,7 @@ async def all_article_func(page: int = 1):
         # 共有多少页
         page_number = int(len(all_article) / (page_size + 1)) + 1
 
+        # 分割页码
         split_page_list = [all_article[i:i + page_size] for i in range(0, len(all_article), page_size)]
 
         return {
@@ -198,6 +199,7 @@ async def get_all_article_func():
 
 @app.post('/api/v1/updateArticle')
 async def update_article_func(request: dict):
+    # 编辑文章
     article = (models.session.query(models.Article)
                .filter_by(article_id=request.get('article_id')))
     article.update({
