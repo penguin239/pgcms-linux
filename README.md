@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 #### 数据库配置
 
-进入您的mysql命令行，新建```blog```数据库。\
+进入您的mysql命令行，新建```blog```数据库。
 
 ```sql
 CREATE
