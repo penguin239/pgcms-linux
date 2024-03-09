@@ -143,7 +143,7 @@ QQ：309318068
 
 ## 许可证
 
-PGCMS 使用 [Apache 许可证](https://github.com/penguin239/pgcms-linux/blob/main/LICENSE)。
+PGCMS 使用 [MIT 许可证](https://github.com/penguin239/pgcms-linux/blob/main/LICENSE)。
 
 
 <p align="center">
