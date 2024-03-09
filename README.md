@@ -136,6 +136,11 @@ INFO:     Application startup complete.
 
 如果您发现了任何问题或者有改进建议，请在 GitHub 上提出 issue 或者提交 pull request。
 
+## 问题
+
+如果您在使用过程中发现了任何问题，或者看过教程后仍然不理解，可以添加作者联系方式：
+QQ：309318068
+
 ## 许可证
 
 PGCMS 使用 [Apache 许可证](https://github.com/penguin239/pgcms-linux/blob/main/LICENSE)。
